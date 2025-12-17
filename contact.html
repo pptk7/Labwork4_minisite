@@ -1,34 +1,90 @@
+
 <!DOCTYPE html>
-<html lang="en"> <head>
-    <meta charset="UTF-8">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOSEN-KMITL | Contact</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="structure.html">   Curriculum Structure</a>
-        <a href="contact.html">   Contact Us</a>
+<header class="nav-bar">
+  <div class="nav-container">
+    <div class="nav-left">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/KOSEN-KMITL_Logo.png/960px-KOSEN-KMITL_Logo.png?20240503074701" alt="KOSEN-KMITL" class="logo-img">
+      <div class="brand-text">
+        <span class="inst">
+              <span class="blue">KOSEN-</span><span class="orange">KMITL</span>
+            </span>
+        <span class="sub">A NEW GENERATION OF ENGINEERING</span>
+      </div>
+    </div>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="structure.html">Structure</a>
+      <a class="active" href="contact.html">Contact</a>
     </nav>
+  </div>
+</header>
 
-    <h1 class="highlight">Contact Resources</h1>
+<main class="container">
 
-    <p>For more information, please visit our official channels:</p>
+      <section class="contact-info">
+        <h2>Contact Us</h2>
+        <div class="contact-item">
+          <span class="icon">📍</span>
+          <p>
+            1 Chalong Krung 1 Alley, Lat Krabang, Bangkok 10520  
+          </p>
 
-    <ul>
-        <li>
-            Official Website: 
-            <a href="http://www.kosen.kmitl.ac.th" target="_blank">www.kosen.kmitl.ac.th</a>
-        </li>
-        <li>
-            Facebook Page: 
-            <a href="https://www.facebook.com/KOSENKMITL" target="_blank">KOSEN-KMITL Facebook</a>
-        </li>
-    </ul>
+        </div>
 
-    <h3>Location</h3>
-    <p>King Mongkut's Institute of Technology Ladkrabang, Bangkok, Thailand.</p>
+  <div class="contact-item">
+    <span class="icon">📞</span>
+    <p>Tel : 096-805-9827</p>
+  </div>
+
+  <div class="contact-item">
+    <span class="icon">🌐</span>
+    <a href="https://www.kosen.kmitl.ac.th" target="_blank">
+      www.kosen.kmitl.ac.th
+    </a>
+  </div>
+
+  <div class="contact-item">
+    <span class="icon">📘</span>
+    <a href="https://www.facebook.com/kosenkmitl" target="_blank">
+      Facebook : KOSEN-KMITL
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  © 2025 KOSEN-KMITL Mini-Site
+</footer>
+
+
+<!-- Floating Meme Widget (Contact only) -->
+<div class="meme-widget">
+  <div class="meme-inner">
+    <div class="meme-front">
+      <img src="https://i.pinimg.com/736x/25/12/26/25122645e1b1a16d7f41f774c5960483.jpg" alt="Meme front">
+    </div>
+    <div class="meme-back">
+      <img src="https://scontent.fbkk22-7.fna.fbcdn.net/v/t39.30808-6/491405779_1207475928044636_2230492902849856306_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Dfcp0DYibcQQ7kNvwG2vS-0&_nc_oc=AdljyGRXJSW4jQyC__NTyxKxYfKLZRWA_ecEero2NuuNRG2MfrIxpecpUHnZF4Y4Yik&_nc_zt=23&_nc_ht=scontent.fbkk22-7.fna&_nc_gid=CbheFD6-JbJlJDRjty9vFg&oh=00_AfmB7tcCQgAbo6m_KtBt83fwAA-IWjB3XBsHK01-BFSuZQ&oe=69489856" alt="Meme back">
+    </div>
+  </div>
+</div>
+
+<script>
+  const memeWidget = document.querySelector('.meme-widget');
+  memeWidget.addEventListener('click', () => {
+    memeWidget.classList.toggle('active');
+  });
+</script>
 
 </body>
 </html>
