@@ -25,8 +25,8 @@ nav a:hover {
 
 
 .highlight {
-    color: #0056b3;
-    background-color: #e6f2ff;
+    color: #06ff12;
+    background-color: #000000;
     padding: 10px;
     border-left: 5px solid #0056b3;
 }
@@ -38,4 +38,27 @@ nav a:hover {
     border: 1px solid red;
     padding: 5px;
     background-color: #ffe6e6;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
 }
