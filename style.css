@@ -2,7 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-image: url("https://media.istockphoto.com/id/1063793474/photo/sunset-with-sun-and-clouds.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rp0_pFoNIJeT3sf0TbgrWVHdaR9ewsX7UF9jW43xyPA=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav {
